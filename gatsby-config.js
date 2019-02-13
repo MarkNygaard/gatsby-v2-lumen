@@ -26,11 +26,9 @@ module.exports = {
     author: {
       name: 'Mark Nygaard',
       email: 'mark.nygaard@hotmail.com',
-      telegram: '#',
       linkedin: 'mnleth',
       github: 'MarkNygaard',
       rss: '#',
-      vk: '#',
     },
   },
   plugins: [
