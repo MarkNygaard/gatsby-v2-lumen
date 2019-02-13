@@ -29,7 +29,8 @@
         }
         &-subtitle {
             color: $color-gray;
-            @include line-height(1);
+            font-siz: 13px;
+            line-height: 0rem;
             @include margin-bottom(1);
         }
     }
