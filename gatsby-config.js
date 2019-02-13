@@ -27,7 +27,7 @@ module.exports = {
       name: 'Mark Nygaard',
       email: 'mark.nygaard@hotmail.com',
       telegram: '#',
-      twitter: '#',
+      linkedin: 'mnleth',
       github: 'MarkNygaard',
       rss: '#',
       vk: '#',
