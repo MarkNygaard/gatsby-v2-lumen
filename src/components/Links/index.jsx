@@ -19,7 +19,7 @@ class Links extends React.Component {
         <ul className="links__list">
           <li className="links__list-item">
             <a
-              href={`https://www.linkedin.com/${links.twitter}`}
+              href={`https://www.linkedin.com/in/${links.linkedin}`}
               target="_blank"
               rel="noopener noreferrer"
             >
