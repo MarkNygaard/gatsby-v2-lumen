@@ -4,9 +4,9 @@ const pxtorem = require('postcss-pxtorem')
 module.exports = {
   siteMetadata: {
     url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
+    title: 'Mark Nygaard',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'Business Development Engineer',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -24,11 +24,11 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
+      name: 'Mark Nygaard',
+      email: 'mark.nygaard@hotmail.com',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'MarkNygaard',
       rss: '#',
       vk: '#',
     },
