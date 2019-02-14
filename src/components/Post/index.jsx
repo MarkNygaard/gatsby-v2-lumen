@@ -15,7 +15,7 @@ class Post extends React.Component {
 
     return (
       <div className="post">
-      <div className="post_content">
+      <div className="post__content">
         <div className="post__meta">
           <time
             className="post__meta-time"
@@ -40,7 +40,7 @@ class Post extends React.Component {
           Continue reading
         </Link>
         </div>
-        <div clasName="post_image">
+        <div clasName="post__image">
           test
         </div>
       </div>

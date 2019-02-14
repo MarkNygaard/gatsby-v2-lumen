@@ -2,9 +2,16 @@
 @import "../../assets/scss/mixins";
 
 .post {
+    display: flex;
     @include margin-bottom(1.25);
     &:last-child {
         @include margin-bottom(.5);
+    }
+    &__content {
+      order: 2;
+    }
+    &__image {
+      order: 1;
     }
     &__title {
         font-size: $typographic-base-font-size * 1.6875;
