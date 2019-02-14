@@ -11,6 +11,10 @@
       order: 2;
       flex: 4;
     }
+    &__image {
+      order: 1;
+      flex: 1;
+    }
     &__title {
         font-size: $typographic-base-font-size * 1.6875;
         @include line-height(1.5);
@@ -61,9 +65,5 @@
             color: $color-primary;
             border-bottom: 1px solid $color-primary;
         }
-    }
-    &__image {
-      order: 1;
-      flex: 1;
     }
 }

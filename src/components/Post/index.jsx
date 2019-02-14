@@ -40,7 +40,7 @@ class Post extends React.Component {
           Continue reading
         </Link>
         </div>
-        <div clasName="post__image">
+        <div className="post__image">
           test
         </div>
       </div>
