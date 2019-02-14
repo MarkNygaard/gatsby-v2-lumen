@@ -69,7 +69,7 @@ class PostTemplateDetails extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <br /> <strong>{author.name}</strong> on linkedin
+                <br /> <strong>{author.name}</strong> on LinkedIn
               </a>
             </p>
             {commentsBlock}
