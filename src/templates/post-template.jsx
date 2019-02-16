@@ -8,7 +8,7 @@ class PostTemplate extends React.Component {
   render() {
     const { title, subtitle } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
-    const { title: postTitle, description: postDescription, image: image} = post.frontmatter
+    const { title: postTitle, description: postDescription} = post.frontmatter
     const description = postDescription !== null ? postDescription : subtitle
 
     return (
@@ -53,7 +53,6 @@ export const pageQuery = graphql`
         tags
         date
         description
-        image
       }
     }
   }
