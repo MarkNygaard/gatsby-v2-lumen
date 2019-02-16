@@ -49,7 +49,7 @@ class Sidebar extends React.Component {
     /* eslint-enable jsx-a11y/img-redundant-alt */
 
     return (
-      <div className="sidebar" style="background-image:url('../../assets/images/cover.jpg')">
+      <div className="sidebar" style="background-image:url(${coverImage})">
         <div className="sidebar__inner">
           <div className="sidebar__author">{authorBlock}</div>
           <div>
