@@ -41,7 +41,7 @@ class Post extends React.Component {
         </Link>
         </div>
         <div className="post__image">
-          {image}
+          image
         </div>
       </div>
     )
