@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import Menu from '../Menu'
 import Links from '../Links'
 import profilePic from '../../pages/photo.jpg'
+import coverImage from '../../assets/images/cover.jpg'
 import './style.scss'
 
 class Sidebar extends React.Component {
@@ -48,7 +49,7 @@ class Sidebar extends React.Component {
     /* eslint-enable jsx-a11y/img-redundant-alt */
 
     return (
-      <div className="sidebar">
+      <div className="sidebar" style="background-image:url({coverImage});">
         <div className="sidebar__inner">
           <div className="sidebar__author">{authorBlock}</div>
           <div>
