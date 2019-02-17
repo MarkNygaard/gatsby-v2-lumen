@@ -30,7 +30,7 @@ class Links extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="icon-github" />
+              <i className="icon-github-circled" />
             </a>
           </li>
           <li className="links__list-item">
