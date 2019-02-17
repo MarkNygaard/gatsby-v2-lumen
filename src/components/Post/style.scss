@@ -3,14 +3,15 @@
 
 .post {
   display: flex;
-  flex: 1 1 400px;
+  flex: 1 1 300px;
   flex-direction: column;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 8px 14px 38px rgba(39,44,49,.06),1px 3px 8px rgba(39,44,49,.03);
   background: #FFF 50%;
   transition: all .5s ease;
-  margin-right: 20px;
+  margin: 20px;
+  min-height: 300px;
   @include margin-bottom(1.25);
 
   &:last-child {
