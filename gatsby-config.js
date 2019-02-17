@@ -12,17 +12,17 @@ module.exports = {
       {
         label: 'Home',
         path: '/',
-        icon: 'icon-home',
+        icon: '"icon-home"',
       },
       {
         label: 'About me',
         path: '/about/',
-        icon: 'icon-user'
+        icon: '"icon-user"'
       },
       {
         label: 'Contact me',
         path: '/contact/',
-        icon: 'icon-location'
+        icon: '"icon-location"'
       },
     ],
     author: {
