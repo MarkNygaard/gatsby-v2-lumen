@@ -3,6 +3,10 @@
 
 .menu {
     @include margin-bottom(1);
+    i {
+        font-size: 14px;
+        color: lighten($color-base, 20%);
+    }
     &__list {
         list-style: none;
         padding: 0;
