@@ -178,7 +178,7 @@ figcaption {
 
 @include breakpoint-md {
     .content {
-        lost-column: 4/5;
+        lost-column: 3/4;
         &__inner {
             padding: 40px 35px;
         }
