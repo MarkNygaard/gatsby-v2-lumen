@@ -5,8 +5,7 @@ module.exports = {
   siteMetadata: {
     url: 'https://lumen.netlify.com',
     title: 'Mark Nygaard',
-    subtitle:
-      'Business Development Engineer',
+    subtitle: '',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
