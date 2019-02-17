@@ -11,13 +11,13 @@ class Menu extends React.Component {
       <ul className="menu__list">
         {menu.map(item => (
           <li className="menu__list-item" key={item.path}>
-            <i className={item.icon} />
+            <i className={item.label} />
             <Link
               to={item.path}
               className="menu__list-item-link"
               activeClassName="menu__list-item-link menu__list-item-link--active"
             >
-              {item.icon}
+              {item.label}
             </Link>
           </li>
         ))}
