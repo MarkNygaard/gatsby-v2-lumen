@@ -11,8 +11,9 @@ module.exports = {
     disqusShortname: '',
     menu: [
       {
-        label: 'Articles',
+        label: 'Home',
         path: '/',
+        icon: 'icon-home',
       },
       {
         label: 'About me',
