@@ -150,6 +150,8 @@ figcaption {
 .content {
     &__inner {
         padding: 25px 20px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
