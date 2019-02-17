@@ -5,12 +5,15 @@ import './style.scss'
 class Menu extends React.Component {
   render() {
     const menu = this.props.data
+    const icon = {
+      icon: menu.icon,
+    }
 
     const menuBlock = (
       <ul className="menu__list">
         {menu.map(item => (
           <li className="menu__list-item" key={item.path}>
-            <i className={item.icon} />
+            <i className={icon.icon} />
             <Link
               to={item.path}
               className="menu__list-item-link"
