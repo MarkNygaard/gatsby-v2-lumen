@@ -13,7 +13,7 @@ class PageTemplate extends React.Component {
 
     return (
       <Layout>
-        <div style="display: flex;">
+        <div>
           <Helmet>
             <title>{`${pageTitle} - ${title}`}</title>
             <meta name="description" content={description} />
