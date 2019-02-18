@@ -7,9 +7,11 @@ class Layout extends React.Component {
     const { children } = this.props
 
     return (
+      <div className="outer-layout"
       <div className="layout">
         <Helmet defaultTitle="Mark Nygaard" />
         {children}
+      </div>
       </div>
     )
   }
