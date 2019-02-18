@@ -8,6 +8,11 @@ class NotFoundRoute extends React.Component {
     return (
       <Layout>
         <div>
+          <Helmet>
+            <title>404</title>
+            <meta name="description" />
+          </Helmet>
+          <Sidebar {...this.props} />
           <div className="content">
             <div className="content__inner">
               <div className="page">
