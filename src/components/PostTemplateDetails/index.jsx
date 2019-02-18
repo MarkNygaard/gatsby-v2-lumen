@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Sidebar from '../Sidebar'
 import moment from 'moment'
 import Disqus from '../Disqus/Disqus'
 import './style.scss'
@@ -45,7 +44,7 @@ class PostTemplateDetails extends React.Component {
 
     return (
       <>
-        <Sidebar {...this.props} />
+        {homeBlock}
         <div className="post-single">
           <div className="post-single__inner">
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
