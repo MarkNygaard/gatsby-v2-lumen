@@ -7,7 +7,7 @@ class PageTemplateDetails extends React.Component {
     const page = this.props.data.markdownRemark
 
     return (
-      <div style="display: flex;">
+      <div>
         <Sidebar {...this.props} />
         <div className="content">
           <div className="content__inner">
