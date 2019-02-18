@@ -46,7 +46,6 @@ class PostTemplateDetails extends React.Component {
     return (
       <>
         <Sidebar {...this.props} />
-        {homeBlock}
         <div className="post-single">
           <div className="post-single__inner">
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
