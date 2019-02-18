@@ -16,7 +16,7 @@ class IndexRoute extends React.Component {
 
     return (
       <Layout>
-        <div>
+        <>
           <Helmet>
             <title>{title}</title>
             <meta name="description" content={subtitle} />
@@ -25,7 +25,7 @@ class IndexRoute extends React.Component {
           <div className="content">
             <div className="content__inner">{items}</div>
           </div>
-        </div>
+        </>
       </Layout>
     )
   }
