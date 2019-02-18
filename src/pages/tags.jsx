@@ -12,7 +12,7 @@ class TagsRoute extends React.Component {
 
     return (
       <Layout>
-        <div>
+        <>
           <Helmet title={`All Tags - ${title}`} />
           <Sidebar {...this.props} />
           <div className="content">
@@ -38,7 +38,7 @@ class TagsRoute extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </>
       </Layout>
     )
   }

@@ -11,11 +11,11 @@ class PostTemplateDetails extends React.Component {
     const tags = post.fields.tagSlugs
 
     const homeBlock = (
-      <div>
+      <>
         <Link className="post-single__home-button" to="/">
           All Articles
         </Link>
-      </div>
+      </>
     )
 
     const tagsBlock = (
@@ -34,16 +34,16 @@ class PostTemplateDetails extends React.Component {
     )
 
     const commentsBlock = (
-      <div>
+      <>
         <Disqus
           postNode={post}
           siteMetadata={this.props.data.site.siteMetadata}
         />
-      </div>
+      </>
     )
 
     return (
-      <div>
+      <>
         {homeBlock}
         <div className="post-single">
           <div className="post-single__inner">
@@ -75,7 +75,7 @@ class PostTemplateDetails extends React.Component {
             {commentsBlock}
           </div>
         </div>
-      </div>
+      </>
     )
   }
 }

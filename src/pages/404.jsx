@@ -8,7 +8,7 @@ class NotFoundRoute extends React.Component {
   render() {
     return (
       <Layout>
-        <div>
+        <>
           <Helmet>
             <title>404</title>
             <meta name="description" />
@@ -26,7 +26,7 @@ class NotFoundRoute extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </>
       </Layout>
     )
   }
