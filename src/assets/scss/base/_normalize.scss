@@ -38,7 +38,7 @@ footer,
 header,
 nav,
 section {
-	display: flex;
+	display: block;
 }
 
 /**
@@ -62,7 +62,7 @@ h1 {
 figcaption,
 figure,
 main { /* 1 */
-	display: flex;
+	display: block;
 }
 
 /**
