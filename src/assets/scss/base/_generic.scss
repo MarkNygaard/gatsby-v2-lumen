@@ -142,6 +142,10 @@ figcaption {
     text-align: center;
 }
 
+.outer-layout {
+    display: flex;
+}
+
 .layout {
     lost-center: $layout-width;
     background-color: #f5f4f2;
