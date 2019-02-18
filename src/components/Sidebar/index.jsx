@@ -20,7 +20,7 @@ class Sidebar extends React.Component {
 
     /* eslint-disable jsx-a11y/img-redundant-alt */
     const authorBlock = (
-      <div>
+      <>
         <Link to="/">
           <img
             src={profilePic}
@@ -44,7 +44,7 @@ class Sidebar extends React.Component {
           </h2>
         )}
         <p className="sidebar__author-subtitle">{subtitle}</p>
-      </div>
+      </>
     )
     /* eslint-enable jsx-a11y/img-redundant-alt */
 
