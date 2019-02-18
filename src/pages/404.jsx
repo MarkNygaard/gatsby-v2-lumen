@@ -1,8 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import Sidebar from '../components/Sidebar'
 import Layout from '../components/Layout'
+import Sidebar from '../components/Sidebar'
 
 class NotFoundRoute extends React.Component {
   render() {
