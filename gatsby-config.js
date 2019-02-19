@@ -86,12 +86,6 @@ module.exports = {
                         layout
                         draft
                         description
-                        thumbnailImage {
-                          publicURL
-                          childImageSharp {
-                            sizes(maxWidth: 1240 ) {
-                              srcSet
-
                       }
                     }
                   }
