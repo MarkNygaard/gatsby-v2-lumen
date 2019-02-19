@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Post from '../components/Post'
 import Sidebar from '../components/Sidebar'
-import Img from "gatsby-image"
+import Img from 'gatsby-image'
 
 class IndexRoute extends React.Component {
   render() {

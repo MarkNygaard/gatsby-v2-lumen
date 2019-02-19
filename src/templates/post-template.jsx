@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PostTemplateDetails from '../components/PostTemplateDetails'
-import Img from "gatsby-image"
+import Img from 'gatsby-image'
 
 class PostTemplate extends React.Component {
   render() {
