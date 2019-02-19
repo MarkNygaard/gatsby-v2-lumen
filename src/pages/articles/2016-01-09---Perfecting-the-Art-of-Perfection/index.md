@@ -5,11 +5,11 @@ layout: post
 draft: false
 path: "/posts/perfecting-the-art-of-perfection/"
 category: "Design Inspiration"
-tags: Perfecting the Art of Perfection
+tags:
   - "Handwriting"
   - "Learning to write"
 description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
-thumbnailImage:
+thumbnailImage: Perfecting the Art of Perfection
 ---
 
 Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.
