@@ -29,7 +29,6 @@ exports.createPages = ({ graphql, actions }) => {
                 tags
                 layout
                 category
-                thumbnailImage
               }
             }
           }
