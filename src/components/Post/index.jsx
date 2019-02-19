@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import moment from 'moment'
 import './style.scss'
+import Img from "gatsby-image";
 
 class Post extends React.Component {
   render() {
