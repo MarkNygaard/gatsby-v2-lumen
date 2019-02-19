@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Post from '../components/Post'
 import Sidebar from '../components/Sidebar'
+import Img from "gatsby-image"
 
 class IndexRoute extends React.Component {
   render() {
@@ -70,6 +71,14 @@ export const pageQuery = graphql`
             date
             category
             description
+            thumbnailImage {
+              publicURL
+              childImageSharp {
+                sizes(maxWidth: 1240 ) {
+                  srcSet
+                }
+              }
+            }
           }
         }
       }
