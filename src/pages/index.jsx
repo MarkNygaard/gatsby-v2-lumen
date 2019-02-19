@@ -70,7 +70,6 @@ export const pageQuery = graphql`
             date
             category
             description
-            thumbnailImage
           }
         }
       }
