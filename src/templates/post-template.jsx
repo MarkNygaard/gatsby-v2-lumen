@@ -53,6 +53,14 @@ export const pageQuery = graphql`
         tags
         date
         description
+        thumbnailImage {
+          publicURL
+          childImageSharp {
+            sizes(maxWidth: 1240 ) {
+              srcSet
+            }
+          }
+        }
       }
     }
   }
