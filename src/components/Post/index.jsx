@@ -43,7 +43,7 @@ class Post extends React.Component {
         </Link>
         </div>
         <div className="post__image">
-          <img src={thumbnailImage} alt={title} />
+          <Img sizes={featured.frontmatter.thumbnailImage.childImageSharp.sizes} />
         </div>
       </div>
     )
