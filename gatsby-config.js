@@ -86,7 +86,6 @@ module.exports = {
                         layout
                         draft
                         description
-                        thumbnailImage
                       }
                     }
                   }
