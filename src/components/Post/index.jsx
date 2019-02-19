@@ -10,7 +10,7 @@ class Post extends React.Component {
       date,
       category,
       description,
-      image,
+      thumbnailImage,
     } = this.props.data.node.frontmatter
     const { slug, categorySlug } = this.props.data.node.fields
 
@@ -42,7 +42,7 @@ class Post extends React.Component {
         </Link>
         </div>
         <div className="post__image">
-          <img src={image} alt={title} />
+          <img src={thumbnailImage} alt={title} />
         </div>
       </div>
     )
